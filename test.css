@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 10vh;
+}
+.her{
+    height: 30vw;
+    width: 30vw;
+    filter: blur(2.2vh);
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.her2{
+    height: 30vw;
+    width: 30vw;
+    filter: blur(2.2vh);
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+}
+@keyframes anime {
+    from{
+        transform: translate(-10%,-10%);
+    }
+    to{
+        transform: translate(10%,10%);
+    }
+}
