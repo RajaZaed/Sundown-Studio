@@ -424,8 +424,16 @@ font-style: italic;
 }
 
 /* page 5 */
-.page5{
-    min-height: 60vh;
+/* last page */
+.copy{
+    height: 15vh;
     width: 100%;
-    background-color: #b0341b;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy h5{
+    font-style: italic;
+    color: rgba(44, 44, 44, 0.836);
 }
